@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IShop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-size: 2em;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            color: #fff;
+            text-shadow: 1px 1px #333;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .products li {
+            margin-right: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+            box-shadow: 2px 2px #ccc;
+        }
+
+        .products li:hover {
+            box-shadow: 4px 4px #ccc;
+        }
+
+        .products li img {
+            width: 100%;
+            height: auto;
+        }
+
+        .products li h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .products li p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .products li button {
+            background-color: #f44336;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .products li button:hover {
+            background-color: #ff5733;
+        }
+
+        footer {
+            background-color: #ddd;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">IShop</div>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">Телефоны</a><a href="#">О нас</a>
+            <a href="#">Контакты</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Выберите свой телефон</h1>
+    </div>
+    <div class="container">
+        <main>
+            <ul class="products">
+                <li>
+                    <img src="phone1.jpg" alt="Телефон 1">
+                    <h3>Samsung Galaxy A53 5G</h3>
+                    <p>Цена: 35000 руб.</p>
+                    <button>Купить</button>
+                </li>
+                <li>
+                    <img src="phone2.jpg" alt="Телефон 2">
+                    <h3>Huawei Nova Y90</h3>
+                    <p>Цена: 17000 руб.</p>
+                    <button>Купить</button>
+                </li>
+                <li>
+                    <img src="phone3.jpg" alt="Телефон 3">
+                    <h3>Realme Narzo 50 Pro</h3>
+                    <p>Цена: 15000 руб.</p>
+                    <button>Купить</button>
+                </li>
+                <li>
+                    <img src="phone4.jpg" alt="Телефон 4">
+                    <h3>iPhone 13</h3>
+                    <p>Цена: 65900 руб.</p>
+                    <button>Купить</button>
+                </li>
+                <li>
+                    <img src="phone5.jpg" alt="Телефон 5">
+                    <h3>iPhone 14</h3>
+                    <p>Цена: 120000 руб.</p>
+                    <button>Купить</button>
+                </li>
+                <li>
+                    <img src="phone6.jpg" alt="Телефон 6">
+                    <h3>Samsung Galaxy A73</h3>
+                    <p>Цена: 40000 руб.</p>
+                    <button>Купить</button>
+                </li>
+            </ul>
+        </main>
+    </div>
+    <footer>
+        <p>© 2023 IShop. Все права защищены.</p>
+    </footer>
+
+</body>
+
+</html>
